@@ -17,7 +17,7 @@ const Students: CollectionConfig = {
     {
       name: "studentId",
       label: "Student ID",
-      type: "text",
+      type: "number",
       unique: true,
       required: true,
     },

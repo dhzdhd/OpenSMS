@@ -18,8 +18,7 @@ import { HorizontalRuleNode } from "@lexical/react/LexicalHorizontalRuleNode";
 const theme = {};
 
 function onError(error: any) {
-  // TODO: trigger popup
-  console.error(error);
+  console.log(error);
 }
 
 export interface LexicalEditorProps {
